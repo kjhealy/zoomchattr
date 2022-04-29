@@ -6,8 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-zoomchattr takes a directory of Zoom chat files and parses them either
-individually or en masse into a tibble with one chat message per row.
+zoomchattr takes the directory of Zoom chat files that’s been
+accumulating on your computer for the past two years, parses them either
+individually or *en masse*, and makes them into a tibble with one chat
+message per row.
 
 ## Installation
 
