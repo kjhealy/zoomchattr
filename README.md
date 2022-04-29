@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# zoomchattr <img src="man/figures/zoomchattr.png" align="right" width="240">
+# zoomchattr <img src="man/figures/hex-zoomchattr.png" align="right" width="240">
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -69,10 +69,6 @@ head(df)
 #> /Users/kjhealy/Documents/Zoom/2022-04-21 10.11.23… 2022-04-21 11:21:12 Laura Grpea… Everyone    "Is there a keyboard shortcut for the pipe op…
 #> /Users/kjhealy/Documents/Zoom/2022-04-21 10.11.23… 2022-04-21 11:23:06 Taylor Fnam… Everyone    "Ctrl + Shift + M (Windows)"                  
 ```
-
-At present the `from` column has both the “From” and “To” information in
-it. It also includes any Direct Messages sent to the person recording
-the chat.
 
 Individual chat files can be parsed with `parse_zoom_chat()`, which
 takes a single file path only.
