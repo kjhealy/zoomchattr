@@ -2,3 +2,24 @@ url: https://kjhealy.github.io/zoomchattr/
 template:
   bootstrap: 5
 
+reference:
+- title: The main functions
+  desc: Ingest a single Zoom chat file, or all of them
+  contents:
+  - get_zoom_names
+  - parse_zoom_chat
+  - parse_all_zoom_chat
+- title: Support functions
+  desc: Helper functions for the main tasks
+  contents:
+  - check_all_chat_format
+  - check_chat_format
+  - check_in_out
+  - get_files_of_type
+  - get_fdates
+  - parse_all_v1_chat
+  - parse_all_v2_chat
+  - parse_v1_chat
+  - parse_v2_chat
+  - process_from_column
+
