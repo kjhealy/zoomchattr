@@ -58,7 +58,7 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="zoomchattr-">zoomchattr <img src="reference/figures/zoomchattr.png" align="right" width="240"><a class="anchor" aria-label="anchor" href="#zoomchattr-"></a>
+<div class="page-header"><h1 id="zoomchattr-">zoomchattr <img src="reference/figures/hex-zoomchattr.png" align="right" width="240"><a class="anchor" aria-label="anchor" href="#zoomchattr-"></a>
 </h1></div>
 <!-- badges: start --><!-- badges: end --><p>zoomchattr takes the directory of Zoom chat files that’s been accumulating on your computer for the past two years, parses them either individually or <em>en masse</em>, and makes them into a tibble with one chat message per row.</p>
 <div class="section level2">
@@ -105,7 +105,6 @@
 <span class="co">#&gt; /Users/kjhealy/Documents/Zoom/2022-04-21 10.11.23… 2022-04-21 11:07:56 lauraabcder… Kieran Hea… "Ok thx"                                      </span>
 <span class="co">#&gt; /Users/kjhealy/Documents/Zoom/2022-04-21 10.11.23… 2022-04-21 11:21:12 Laura Grpea… Everyone    "Is there a keyboard shortcut for the pipe op…</span>
 <span class="co">#&gt; /Users/kjhealy/Documents/Zoom/2022-04-21 10.11.23… 2022-04-21 11:23:06 Taylor Fnam… Everyone    "Ctrl + Shift + M (Windows)"                  </span></code></pre></div>
-<p>At present the <code>from</code> column has both the “From” and “To” information in it. It also includes any Direct Messages sent to the person recording the chat.</p>
 <p>Individual chat files can be parsed with <code><a href="reference/parse_zoom_chat.html">parse_zoom_chat()</a></code>, which takes a single file path only.</p>
 </div>
 </div>
